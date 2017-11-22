@@ -3,8 +3,6 @@
 # 《Python数据科学入门》阅读计划
 ——图灵大数据与机器学习群阅读计划（第2期）
 
-<br>
- 
 ##### 领读人：张旱文（微信ID：syhilyhw）
 
 ##### 本书特色
@@ -14,7 +12,6 @@
  - 实战分别用 <font color='green'>MySQL</font> 、 <font color='green'>MongoDB</font> 数据库进行<font color='red'>配置</font>、<font color='red'>填充</font>、<font color='red'>查询</font>数据
  - 基于网络和非网络的数据，<font color='red'>创建网络</font>、<font color='red'>网络度量</font>和<font color='red'>分析网络</font>
  - 概率与统计以及机器学习相关的基本概念
- 　　
 
 ##### 适合读者  
 
@@ -29,6 +26,9 @@
 ##### 总阅读时长：3～4 周  
 ##### 每天阅读用时：1～2小时（建议多做练习）
 ##### 答疑时间安排：每周一次，周六 20:00～22:00
+
+##### 阅读打卡小程序
+<img src="https://github.com/zhanwen/PythonDataScience/blob/master/images/daka.jpg"  height="220" width="200">
 
 ###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/1919">http://www.ituring.com.cn/book/1919</a>
 ###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
