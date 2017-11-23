@@ -1,5 +1,4 @@
 # base string demo
-
 # strip " ",\t,\n, but not strip string inner
 s = "   Hello,  world! \t\t\n";
 print(s.strip())
@@ -29,5 +28,13 @@ s = ",".join(["alpha", "bravo", "charlie", "delta"])
 print(s)
 
 s = "-".join("1.617.305.1985".split("."))
+print(s)
+
+# find index of first show
+s = "www.networksciencelab.com".find(".com")
+print(s)
+
+# count specifiy string
+s = "www.networksciencelab.com".count(".")
 print(s)
 
