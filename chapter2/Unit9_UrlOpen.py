@@ -9,4 +9,3 @@ except:
     print("Could not open %s" % doc, file=sys.err)
     # 不要假装已经读到了文件！
     # 一定要在这里执行错误处理程序
-    # file=sys.err 报语法错误，参见 issue2
