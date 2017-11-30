@@ -2,10 +2,10 @@
 mysql -u root -p
 
 # 创建新的数据库用户和密码
-CREAT USER 'duser'@'localhost' IDENTIFIED BY 'badpassw0rd';
+CREATE USER 'duser'@'localhost' IDENTIFIED BY 'badpassw0rd';
 
 # 给项目创建一个新的数据库（‘dsdb’）
-CREAT DATABASE dsdb;
+CREATE DATABASE dsdb;
 
 # 授予新用户对数据库的访问权限
 GRANT ALL ON dsdb.* TO 'duser'@'localhost';
@@ -14,7 +14,7 @@ GRANT ALL ON dsdb.* TO 'duser'@'localhost';
 mysql -u duser -p dsdb
 
 # 创建employee表
-CREAT TABLE employee (empname TINYTEXT, salary FLOAT, hired DATE);
+CREATE TABLE employee (empname TINYTEXT, salary FLOAT, hired DATE);
 
 # 删除表
 DROP TABLE employee;
@@ -32,4 +32,4 @@ ALTER TABLE employee ADD INDEX(hired);
 DROP INDEX hired ON employee;
 
 # 唯一性约束, 若要添加的那一列是可变长度，则要指定长度
-ALTER TABLE employee ADD UNIQUE(empname(255))
+ALTER TABLE employee ADD UNIQUE(empname(255));
