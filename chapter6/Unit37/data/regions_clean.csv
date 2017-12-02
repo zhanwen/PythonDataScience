@@ -1,0 +1,52 @@
+,state,division,region
+0,Northeast,New England,Connecticut
+1,,,Maine
+2,,,Massachusetts
+3,,,New Hampshire
+4,,,Rhode Island
+5,,,Vermont
+6,Northeast,Mid-Atlantic,New Jersey
+7,,,New York
+8,,,Pennsylvania
+9,Midwest,East North Central,Illinois
+10,,,Indiana
+11,,,Michigan
+12,,,Ohio
+13,,,Wisconsin
+14,Midwest,West North Central,Iowa
+15,,,Kansas
+16,,,Minnesota
+17,,,Missouri
+18,,,Nebraska
+19,,,North Dakota
+20,,,South Dakota
+21,South,South Atlantic,Delaware
+22,,,Florida
+23,,,Georgia
+24,,,Maryland
+25,,,North Carolina
+26,,,South Carolina
+27,,,Virginia
+28,,,Dictrict of Columbia
+29,,,West Virginia
+30,South,East South Central,Alabama
+31,,,Kentucky
+32,,,Mississippi
+33,,,Tennessee
+34,South,West South Central,Arkansas
+35,,,Louisiana
+36,,,Oklahoma
+37,,,Texas
+38,West,Mountain,Arizona
+39,,,Colorado
+40,,,Idaho
+41,,,Montana
+42,,,Nevada
+43,,,New Mexico
+44,,,Utah
+45,,,Wyoming
+46,West,Pacific,Alaska
+47,,,California
+48,,,Hawaii
+49,,,Oregon
+50,,,Washington
