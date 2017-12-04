@@ -14,4 +14,3 @@ statedata.plot.scatter("Beer", "Wine", c="Year", s=100, cmap=plt.cm.autumn)
 
 plt.title("%s: From Beer to Wine in 32 Years" % STATE)
 plt.savefig("../images/scatter-plot.pdf")
-
