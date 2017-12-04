@@ -16,4 +16,3 @@ scatter_matrix(statedata[["Wine", "Beer", "Spirits"]],
 
 plt.tight_layout()
 plt.savefig("../images/scatter-matrix.pdf")
-
