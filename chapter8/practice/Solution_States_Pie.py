@@ -11,6 +11,7 @@ states = pd.read_csv("states.csv",
 # Select a good-locking style
 matplotlib.style.use("ggplot")
 
+
 # Plotting
 plt.axes(aspect=1)
 states.set_index('Postal').groupby(initial).count()['Standard'].plot.pie()
