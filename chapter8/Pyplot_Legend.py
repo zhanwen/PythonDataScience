@@ -28,3 +28,4 @@ plt.title("And now in xkcd...")
 plt.legend(states)
 
 plt.savefig("../images/pyplot-legend-xkcd.pdf")
+
