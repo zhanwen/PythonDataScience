@@ -3,3 +3,4 @@ CREATE TABLE IF NOT EXISTS indexer(id INT PRIMARY KEY AUTO_INCREMENT,
                                    word TINYTEXT, 
                                    position INT,
                                    pos VARCHAR(8));
+
