@@ -5,12 +5,10 @@ def initial(word):
     return word[0]
 
 # Read the state names (use whatever source you like!)
-states = pd.read_csv("states.csv", 
-                     names=("State", "Standard", "Postal", "Capital"))
+states = pd.read_csv("states.csv", names=("State", "Standard", "Postal", "Capital"))
 
 # Select a good-locking style
 matplotlib.style.use("ggplot")
-
 
 # Plotting
 plt.axes(aspect=1)
