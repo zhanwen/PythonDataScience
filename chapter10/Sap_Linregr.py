@@ -40,6 +40,5 @@ plt.ylabel("S&P 500 (closing)")
 plt.legend(["Actual", "Predicted"], loc="lower right")
 plt.annotate("Score=%.3f" % olm_score, 
              xy=(pd.to_datetime('2010-06-01'), 1900))
-
 plt.savefig("../images/sap-linregr.pdf")
 # END:plot
