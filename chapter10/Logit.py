@@ -19,5 +19,6 @@ plt.ylim(ymin=-0.05, ymax=1.05)
 plt.xlim(xmin=-10.05, xmax=10.05)
 plt.legend(["Scale=%.2f" % scale for scale in scales], loc="lower right")
 
+plt.show()
 # Save the plot
-plt.savefig("../images/logit.pdf")
+# plt.savefig("../images/logit.pdf")
