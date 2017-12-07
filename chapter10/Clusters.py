@@ -35,4 +35,5 @@ alco2009withStates.apply(add_abbr, axis=1)
 
 # Add the title, save the plot
 plt.title("US States Clustered by Alcohol Consumption")
-plt.savefig("../images/clusters.pdf")
+plt.show()
+# plt.savefig("../images/clusters.pdf")
