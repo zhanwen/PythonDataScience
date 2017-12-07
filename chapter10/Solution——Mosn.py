@@ -37,4 +37,5 @@ def add_abbr(site):
                         color="darkslategrey")
 good.apply(add_abbr, axis=1)
 
-plt.savefig("../images/mosn.png")
+# plt.savefig("../images/mosn.png")
+plt.show()
